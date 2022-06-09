@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pettren</title>
+</head>
+
+<body>
+
+
+    <script>
+        var a = '';
+        var n = 5;
+        var m = (n - 1);
+        for (i = 1; i <= n; i++) {
+            a = a.trim();
+            a = ' '.repeat(m) + a + (i > 1 ? ' ' : '') + '*';
+
+            m--;
+            console.log(a);
+            //    document.write(a);
+        }
+    </script>
+
+</body>
+
+</html>
